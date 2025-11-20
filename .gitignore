@@ -1,0 +1,19 @@
+# Python system files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual Environment (Don't upload this!)
+venv/
+env/
+.env
+
+# Dataset (Usually too big for GitHub)
+# Change 'dataset_folder_name' to whatever you named your image folder
+final_dataset/
+chest_xray/
+input/
+
+# Large Models (If your model file is >100MB, uncomment the line below)
+# *.h5
+# *.keras
